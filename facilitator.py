@@ -1,4 +1,4 @@
-#Wiber-P2P Wifi - Facilitator Side
+#Wire-P2P Wifi - Facilitator Side
 import socket
 print 'Launching Facilitator'
 

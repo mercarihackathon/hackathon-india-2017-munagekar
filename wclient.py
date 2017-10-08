@@ -1,4 +1,4 @@
-#Wiber-P2P Wifi - Client Side
+#Wire-P2P Wifi - Client Side
 import socket
 #username
 user = 'nointernet'
@@ -25,7 +25,7 @@ authcode = serverSocket.recv(2)
 if authcode =='F':
 	print 'Print Access Failed'
 else:
-	print 'Access Granted Enjoy Wiber-P2P Internet'
+	print 'Access Granted Enjoy Wire-P2P Internet'
 '''
 print 'Credentials Sent'
 print serverSocket.recv(1000)

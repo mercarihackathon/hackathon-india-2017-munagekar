@@ -1,4 +1,4 @@
-#Wiber-P2P Wifi - Server Side
+#Wire-P2P Wifi - Server Side
 #Run as root
 #Depends on Create wifi
 import os
@@ -11,7 +11,7 @@ import socket
 eInf ='enp3s0f1'
 #Wifi Interface
 wInf = 'wlp2s0'
-wName = 'Wiber'
+wName = 'Wire'
 
 '''
 fIp = '127.0.0.1'
