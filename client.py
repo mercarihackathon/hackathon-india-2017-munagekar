@@ -23,7 +23,7 @@ serverSocket.send('Process Verification')
 print 'Verification Pending'
 authcode = serverSocket.recv(2)
 if authcode =='F':
-	print 'Print Access Failed'
+	print 'Access Failed'
 else:
 	print 'Access Granted Enjoy Wire-P2P Internet'
 '''
