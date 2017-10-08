@@ -54,11 +54,12 @@ while True:
 	c.recv(100)
 	if authCode =='F':
 		print 'Auth Unsuccessful'
-		print 'Access Denied to the Client & Bridge Ethernet & Hotspot'
+		print 'Access Denied to the Client'
 		c.send('F')
 	else:
 		print 'Auth Successful'
-		print 'Acess Perimited'
+		print 'Access Perimited'
+		print 'Access To VPN allowed'
 		c.send('T')
 	'''
 	if authCode=='F':
